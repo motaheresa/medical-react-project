@@ -1,0 +1,117 @@
+.Services-Header {
+    background-image: url("../../assests/Page2/background_for_p.png");
+    color: #F17732;
+}
+
+.ServicesText {
+    color: #454545;
+    line-height: 1.6;
+}
+
+.ServicesH2 {
+    color: #1F2278;
+    line-height: 1.3;
+}
+
+.btnServices {
+    background-color: #F17732;
+}
+
+
+@media screen and (min-width:200px) and (max-width:1000px) {
+    .Services-Header {
+        background-image: url("../../assests/Page 1/Backgroundforparagraph.png");
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    .section-services-right .slider-services{
+        width: 100%;
+    }
+    .services{
+        background-color: #565ACF;
+    }
+    
+    
+    .Services-Header{
+        color: #F17732;
+        background-image: url('../../assests/Page2/background_for_p.png');
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:2000px) {
+    .Services-Header {
+        color: #F17732;
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.feature-box-xl{
+    background-image: url("../../assests/Page3/ser.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.feature-box-xl button{
+    font-size: 15px;
+}
+
+.feature-box-xl:hover button{
+    background-color: #363990;
+    color: #fff;
+    transition: .3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+.carousel{
+    overflow: hidden;
+}
+.inner-carousel{
+    display: flex;
+    gap: 20px;
+}
+.ite{
+    min-height: 25rem;
+    min-width: 20rem;
+    padding: 40px 20px;
+}
+
+.ite img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+}

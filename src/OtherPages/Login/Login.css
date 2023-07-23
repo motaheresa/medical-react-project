@@ -1,0 +1,10 @@
+.login-page{
+    background-color: #f2f2fa;
+}
+
+.bg-login{
+    background-color: var(--orange-color);
+}
+.bg-login-page-3{
+    background-color: rgb(86,90,207);
+}

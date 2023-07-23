@@ -1,0 +1,58 @@
+@media only screen and (max-width: 575px) {
+    .error-title {
+        
+        line-height: 120px;
+    }
+}
+
+.error-title span {
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    background-image: url("../../assests/Page2/Cry.gif");
+    background-size: 100%;
+    margin: 0 10px;
+}
+
+.error-title {
+    font-size: 200px;
+    line-height: 180px;
+    margin-bottom: 15px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat",sans-serif;
+    color: #1f2278;
+    line-height: 1.3;
+}
+
+.error-page{
+    color: #1f2278;
+}
+
+.error-page-2{
+    color: #494949;
+}
+
+@media screen and (min-width:400px) and (max-width:800px) {
+    .error-title{
+        font-size: 120px;
+    }
+    .error-title span {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-image: url("../../assests/Page2/Cry.gif");
+        background-size: 100%;
+        margin: 0 10px;
+    }
+    .para-error{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:2000px) {
+    .para-error{
+        width: 85%;
+    }
+}

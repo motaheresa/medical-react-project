@@ -1,0 +1,168 @@
+.phone-div-footer {
+    background-color: #f17732;
+    border-radius: 50px 50px 0 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 58px;
+    text-align: center;
+    position: relative;
+}
+
+.phone-footer {
+    font-size: 20px;
+    margin-right: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+}
+
+.footer-div1,
+.footer-div2,
+.footer-div3,
+.footer-div4 {
+    width: 20%;
+}
+
+@media screen and (min-width:500px) and (max-width:1100px) {
+
+    .footer-div1,
+    .footer-div2,
+    .footer-div3,
+    .footer-div4 {
+        width: 40%;
+    }
+
+    .footer-section {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:600px) {
+    .footer-div1 {
+        width: 90%;
+    }
+
+    .footer-div1,
+    .footer-div4 {
+        width: 80%;
+    }
+    .footer-div2,
+    .footer-div3
+    {
+        width: 40%;
+    }
+
+    .footer-section {
+        margin-top: 60px;
+    }
+
+}
+
+
+.quick-links {
+    color: #444444;
+    font-size: 17px;
+}
+
+.quick-links-header {
+    color: #1f2278;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    width: max-content;
+}
+
+.quick-links-header::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    left: 0;
+    top: 110%;
+    background-image: url("../../assests/Page2/LineFooter.png");
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-image: url("../../assests/Page2/BackgroundFooter.jpg");
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+.footer::after {
+    content: "";
+    background-image: url("../../assests/Page2/zgzagfooter.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    background-position: 0 0;
+}
+
+.btn-footer {
+    background-color: #f17732;
+    color: #fff;
+}
+
+.border-color-for-btn-footer {
+    border-color: #f17732;
+}
+
+.p-div1-footer {
+    color: #444444;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.span-contact-footer {
+    color: #f17732;
+    font-weight: 500;
+}
+
+.span-phone-footer {
+    color: #1f2278;
+    font-weight: 700;
+}
+
+.copyright {
+    color: #444444;
+}
+
+.copyright-name {
+    color: #f17732;
+    font-weight: bold;
+    text-shadow: 0 0 10px #f17732,
+        0 0 20px #f17732, 0 0 30px #f17732,
+        0 0 40px #f17732, 0 0 70px #f17732,
+        0 0 80px #f17732, 0 0 100px #f17732,
+        0 0 150px #f17732;
+    animation: neon-animation 1.5s ease-in-out infinite alternate, RightToLeft 1.5s ease forwards;
+}
+
+
+@keyframes neon-animation {
+    from {
+        opacity: 1;
+        text-shadow: 0 0 10px #f17732,
+            0 0 20px #f17732, 0 0 30px #f17732,
+            0 0 40px #f17732, 0 0 70px #f17732,
+            0 0 80px #f17732, 0 0 100px #f17732,
+            0 0 150px #f17732;
+    }
+
+    to {
+        opacity: 0.2;
+        text-shadow: none;
+    }
+}

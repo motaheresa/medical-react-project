@@ -1,0 +1,99 @@
+.home{
+    background-image: url("../../assests/Page 1/background.jpg");
+}
+
+
+.home::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100%;
+    z-index: -1;
+    background-image: url("../../assests/Page 1/backgroundBrocken.jpg");
+}
+
+.background-for-p{
+    background-image: url("../../assests//Page 1/Backgroundforparagraph.png");
+    color: #565ACF;
+}
+
+.home .h2{
+    color: #1F2278;
+    line-height: 1.2;
+}
+
+.btn{
+    background-color: transparent;
+    border: #F17732 2px solid;
+    color: #F17732;
+    position: relative;
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #F17732;
+    border-radius: 10px;
+    z-index: -4;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn:hover::after{
+    width: 100%;
+    transition: .3s linear;
+}
+
+.home .home-content-right .doc1{
+    animation: MoveFromBottomToTop 1s infinite ease-in-out alternate;
+    width: 450px;
+}
+
+@media screen and (min-width:300px){
+    .home .home-content-right .doc1{
+        width: 380px;
+    }
+}
+
+@media screen and (min-width:700px){
+    .home .home-content-right .doc1{
+        width: 450px;
+    }
+}
+
+.image2_viewport{
+    animation: MoveFromBottomToTop 1s infinite ease-in-out alternate
+}
+
+.zgzag{
+    animation: MoveFromLeftToRight 1s infinite ease-in-out alternate
+}
+
+@keyframes MoveFromBottomToTop{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+
+@keyframes MoveFromLeftToRight{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(25px);
+    }
+}

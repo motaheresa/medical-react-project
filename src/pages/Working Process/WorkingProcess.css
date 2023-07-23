@@ -1,0 +1,122 @@
+
+.working_process_header{
+    background-image: url("../../assests/Page2/back\ for\ p.png");
+    color: rgb(255, 94, 0);
+    width: max-content;
+
+}
+
+.workingprocessh2{
+    color: #1F2278;
+}
+
+.zx{
+    color: transparent;
+    -webkit-text-stroke: 2px #f17732;
+    text-shadow: 0 10px 0 #ffe3d3;
+    font-family: Montserrat,sans-serif !important;
+}
+
+.az{
+    color: #f17732;
+}
+
+.li-p{
+    color: #444444;
+    line-height: 1.6;
+}
+
+.li-pspecial{
+    line-height: 1.6;
+}
+
+.btn-working{
+    background-color: #E1E2F6;
+    color: #6e71d2;
+}
+
+.btn-working2{
+    color: #F17732;
+    background-color: white;
+}
+
+
+.inbtn2{
+    background-color: #F17732;
+}
+
+.li-working {
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .li-working {
+        width: 40%;
+        border-radius: 20px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:700px) {
+    .li-working {
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+    }
+}
+
+.li-working::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background-color: #F17732;
+    z-index: -100;
+    border-radius: 10px;
+    transition: .2s linear ;
+}
+
+.li-working:hover::after{
+    height: 100%;
+}
+
+.li-working:hover p {
+    color: #fff !important;
+}
+
+.li-working:hover button {
+    background-color: #fff;
+    color: #f17732;
+}
+
+.li-working:hover .inbtn {
+    background-color: #f17732;
+    color: white;
+}
+
+.radius{
+    border-radius: 0 30px 30px 0;
+}
+
+.li-working2{
+    position: relative;
+    color: #fff;
+}
+
+.li-working2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F17732;
+    z-index: -100;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --blue-color: rgb(31, 34, 120);
+  --orange-color: rgb(242, 137, 79);
+  --lightblue-color: rgb(162, 164, 230);
+  --background-color: #F7F7FF;
+}
+
+.input_search::placeholder {
+  color: #000;
+}
+
+.viewport {
+  background-image: url("./assests/Page 1/background.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+  height: 100vh;
+}

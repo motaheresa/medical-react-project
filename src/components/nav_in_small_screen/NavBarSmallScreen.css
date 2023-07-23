@@ -1,0 +1,73 @@
+
+.border-color{
+    border-color: #2F3135;
+}
+
+.socailnavicons{
+    background-color: #565ACF;
+}
+
+.plusmark:hover{
+    color: var(--orange-color);
+}
+
+.ShowAllMenu{
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform:translateX(0);
+    background-color: #171A1E;
+    height: 100vh;
+    top: 0;
+    z-index: 100;
+}
+
+.HideAllMenu{
+    transform:translateX(-1200px);
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #171A1E;
+    width: 100%;
+    height: 100vh;
+}
+
+.ShowAllSearch{
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform:translateX(0);
+    height: 100vh;
+    top: 0;
+    z-index: 100;
+}
+
+.HideAllSearch{
+    transform:translateX(-1200px);
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.ShowAllSearchUnderStand{
+    visibility: visible;
+    opacity: 1;
+    transition: .3s linear;
+}
+
+.HideAllSearchUnderStand{
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+
+.ShowAllSearch input::placeholder{
+    color: antiquewhite;
+}

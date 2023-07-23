@@ -1,0 +1,21 @@
+.ShowASearch{
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform:translateX(0);
+    z-index: 100;
+    height: 100vh;
+    top: 0;
+    background-color: white;
+}
+
+.HideASearch{
+    transform:translateX(-2000px);
+    transition: .5s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}

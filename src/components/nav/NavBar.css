@@ -1,0 +1,83 @@
+.plusheadermark{
+    font-size: 14px;
+    transition: .2s linear;
+}
+
+.navbar-list{
+    color: var(--blue-color);
+    transition: .2s linear;
+
+}
+
+.navbar-list.active{
+    color: var(--orange-color);
+}
+
+.navbar-list:hover{
+    color: var(--orange-color);
+}
+
+.navbar-list:hover .plusheadermark{
+    transform: rotate(45deg);
+}
+
+.searchiconheader{
+    color: var(--lightblue-color);
+}
+
+.phoneheadericon{
+    color: var(--blue-color);
+    background-color: #E7E7FA;
+}
+
+.numberphone a{
+    color: var(--blue-color);
+}
+
+.contactnavbar{
+    background-color: #565ACF;
+}
+
+.arrow-right_in_btn_navbar{
+    color: #565ACF;
+}
+
+.borderHover{
+    position: relative;
+    width: fit-content;
+    padding-right: 5px;
+}
+
+.borderHover:hover{
+    color: var(--blue-color);
+}
+
+.borderHover:hover::before{
+    width: 100%;
+}
+
+.borderHover::before{
+    content: "";
+    position: absolute;
+    transition: .3s linear;
+    left: 0;
+    top: 100%;
+    height: 1.5px;
+    width: 0;
+    background-color: var(--blue-color);
+}
+
+.ShowMenuHeader{
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+    transform: translateY(0);
+    z-index: 100;
+}
+
+.HideMenuHeader{
+    transition: .3s linear;
+    transform: translateY(30px);
+    visibility: hidden;
+    opacity: 0;
+}

@@ -1,0 +1,64 @@
+.AboutUSli {
+    border-radius: 20px;
+    padding: 70px 30px;
+    transition: all .5s;
+    background-color: #fff;
+    position: relative;
+    margin: 15px 0 0 15px;
+    width: 18%;
+}
+
+.AboutUSli:hover{
+    background-color: #565acf;
+}
+
+.AboutUSli:hover *{
+    color: #fff;
+}
+
+.AboutUSli:hover::after{
+    border: 2px solid #565acf;
+}
+
+.AboutUSli::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    left: -11px;
+    top: -11px;
+    z-index: 200;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.span-about-us-color{
+    color: #152278;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p-about-us-color{
+    color: #444444;
+}
+
+.about-us-section{
+    background-color: #EDEDF9;
+}
+
+.num-h2-about-us{
+    color: #F17732;
+}
+
+@media screen and (min-width:700px) and (max-width:1250px) {
+    .AboutUSli{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:700px) {
+    .AboutUSli{
+        width: 85%;
+    }
+}

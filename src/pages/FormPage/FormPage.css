@@ -1,0 +1,82 @@
+.FormSection {
+    background-color: #F5F5FC;
+}
+
+.form-wraper .form-control {
+    border: 1px solid rgba(86, 90, 207, .3);
+    border-radius: 8px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.form-wraper {
+    background-color: #fff;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    border-radius: 40px;
+    padding: 10px 35px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (min-width:300px) {
+    .form-wraper {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:300px ) and (max-width:800px) {
+    .groub-images .form_image2{
+        height: 180px;
+        
+    }
+    .groub-images .form_image3{
+        height: 40px;
+    }
+    .groub-images .form_image4{
+        height: 40px;
+    }
+    .groub-images .form_image5{
+        width: 40px;
+    }
+    .groub-images .form_image6{
+        width: 40px;
+    }
+}
+
+.groub-images .form_image2{
+    animation: MoveLeftFromRight infinite alternate 1s;
+}
+
+.groub-images .form_image3,
+.groub-images .form_image4,
+.groub-images .form_image5,
+.groub-images .form_image6
+{
+    animation: MoveBottomFromTop infinite alternate 1.8s;
+}
+
+@keyframes MoveLeftFromRight{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+
+@keyframes MoveBottomFromTop{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+.appointment{
+    background-color: #F17732;
+    cursor: pointer;
+}

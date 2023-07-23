@@ -1,0 +1,18 @@
+.side1{
+    position: relative;
+    width: 400px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.btn-tail-detail{
+    background-color: rgb(86,90,207);
+}
+.btn-tail-detail-color{
+    color: rgb(86,90,207);
+}
+
+.btn-tail-detail:hover .btn-tail-detail-color{
+    color: rgb(253, 124, 38);
+}
