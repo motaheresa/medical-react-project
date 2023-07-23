@@ -16,7 +16,7 @@ import Contact from './OtherPages/Contact/Contact';
 import NavBars from './components/nav/NavBars';
 function App() {
   return (
-    <NavBars/>
+    <Project/>
   );
 }
 

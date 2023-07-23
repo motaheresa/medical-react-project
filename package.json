@@ -1,8 +1,8 @@
 {
+  "homepage": "https://motaheresa.github.io/new-react",
   "name": "meditro-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://motaheresa.github.io",
   "dependencies": {
     "@material-tailwind/react": "^2.0.5",
     "@testing-library/jest-dom": "^5.16.5",
