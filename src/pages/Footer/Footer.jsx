@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="footer-div2 py-8">
                     <h2 className="quick-links-header">Quick Links</h2>
                     <ul className="my-8 quick-links flex mt-10 flex-col gap-2">
-                        <Link className="borderHover" to="/">Home</Link>
+                        <Link className="borderHover" to="/medical-react-project">Home</Link>
                         <Link className="borderHover" to="service">Services</Link>
                         <Link className="borderHover" to="booking">Booking</Link>
                         <Link className="borderHover" to="faq">Faq's</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="footer-div3 py-8">
                     <h2 className="quick-links-header">Our Service</h2>
                     <ul className="my-8 quick-links flex mt-10 flex-col gap-2">
-                        <Link className="borderHover" to="/">Dental Care</Link>
+                        <Link className="borderHover" to="/medical-react-project">Dental Care</Link>
                         <Link className="borderHover" to="service">Cardiac Clinic</Link>
                         <Link className="borderHover" to="booking">Massege Therapy</Link>
                         <Link className="borderHover" to="faq">Cardiology</Link>
