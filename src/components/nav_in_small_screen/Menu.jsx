@@ -17,7 +17,7 @@ const Menu = () => {
             <div className='absolute right-0 text-white text-3xl p-2 rounded-3xl m-3 hover:bg-red-500 cursor-pointer bg-blue-500' onClick={closeall  }><HiOutlineXMark /></div>
             <img src={logo2} className='mx-auto text-white mt-20 mb-10' alt="" />
             <ul className='flex flex-col gap-4'>
-                <Link onClick={usecon.closebarsfunction} to="/" className='border-color border-b-2 w-4/5 mx-auto text-left pb-2 border-b text-white text-xl font-semibold'>Home</Link>
+                <Link onClick={usecon.closebarsfunction} to="/medical-react-project" className='border-color border-b-2 w-4/5 mx-auto text-left pb-2 border-b text-white text-xl font-semibold'>Home</Link>
                 <li className='border-color border-b-2 w-4/5 mx-auto flex justify-between pb-3 border-b text-white text-xl font-semibold'>
                     <span>Pages</span>
                     <span className={`cursor-pointer plusmark `} onClick={usecon.open_minmenufunction}>{usecon.open_minmenu_one ? "-" : "+"}</span>

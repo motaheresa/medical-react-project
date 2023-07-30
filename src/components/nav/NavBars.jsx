@@ -20,6 +20,7 @@ const NavBars = () => {
                 <li className='relative navbar-list flex items-center gap-1 cursor-pointer font-semibold tracking-wider' onMouseMove={usecon.ShowMenuHeader_Function} onMouseLeave={usecon.HideMenuHeader_Function}>Pages
                     <span className='plusheadermark text-gray-400'><AiOutlinePlus /></span>
                     <ul className={`absolute flex flex-col top-7 left-0 shadow-xl bg-white text-gray-400 gap-5 px-8 w-52 h-auto py-4 ${usecon.hover ? "ShowMenuHeader" : "HideMenuHeader"}`} >
+                        <Link to="/medical-react-project" className='borderHover text-sm font-normal'>Home</Link>
                         <Link to="/about" className='borderHover text-sm font-normal'>About US</Link>
                         <Link to="/ourteam" className='borderHover text-sm font-normal'>Our Team</Link>
                         <Link to="/faq" className='borderHover text-sm font-normal'>Faq's</Link>

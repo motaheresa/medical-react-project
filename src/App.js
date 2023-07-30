@@ -16,7 +16,19 @@ import Contact from './OtherPages/Contact/Contact';
 import NavBars from './components/nav/NavBars';
 function App() {
   return (
-    <Project/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/medical-react-project' element={<Project />} />
+        <Route path='/about' element={<AboutUs />} />
+        <Route path='/ourteam' element={<OurTeam />} />
+        <Route path='/faq' element={<Faq />} />
+        <Route path='/booking' element={<Booking />} />
+        <Route path='/error' element={<Error />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

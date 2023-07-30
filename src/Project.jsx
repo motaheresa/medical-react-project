@@ -30,7 +30,6 @@ const Project = () => {
                 <Testimonial />
                 <News />
             </div>
-            <Footer />
         </div>
 
     )
