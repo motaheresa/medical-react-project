@@ -23,3 +23,19 @@
         padding: 50px 30px 30px;
     }
 }
+
+.hideFaq{
+    background-color: rgb(86,90,207);
+    transition: .3s linear;
+    border-radius: 5px;
+}
+
+.showFaq{
+    background-color: #F17732;
+    transition: .2s linear;
+}
+
+.faqArrow{
+    transform: rotate(180deg);
+    transition: .3s linear;
+}

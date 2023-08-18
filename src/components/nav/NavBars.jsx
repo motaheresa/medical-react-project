@@ -16,7 +16,7 @@ const NavBars = () => {
         <div className='container flex items-center justify-evenly py-6 lg:flex hidden'>
             <img src={logo} alt="" />
             <ul className='flex gap-9'>
-                <Link to="/" className='navbar-list active font-semibold tracking-wider cursor-pointer'>Home</Link>
+                <Link to="/medical-react-project" className='navbar-list active font-semibold tracking-wider cursor-pointer'>Home</Link>
                 <li className='relative navbar-list flex items-center gap-1 cursor-pointer font-semibold tracking-wider' onMouseMove={usecon.ShowMenuHeader_Function} onMouseLeave={usecon.HideMenuHeader_Function}>Pages
                     <span className='plusheadermark text-gray-400'><AiOutlinePlus /></span>
                     <ul className={`absolute flex flex-col top-7 left-0 shadow-xl bg-white text-gray-400 gap-5 px-8 w-52 h-auto py-4 ${usecon.hover ? "ShowMenuHeader" : "HideMenuHeader"}`} >

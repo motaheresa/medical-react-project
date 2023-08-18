@@ -25,6 +25,10 @@ function App() {
         <Route path='/booking' element={<Booking />} />
         <Route path='/error' element={<Error />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/service' element={<Service />} />
+        <Route path='/servicedetail' element={<ServiceDetail />} />
+        <Route path='/blogs' element={<Blogs />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />

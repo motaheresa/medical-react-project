@@ -10,7 +10,7 @@ import Services from './pages/Services/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
 import WorkingProcess from './pages/Working Process/WorkingProcess';
 import { creatcon } from './components/context/Context';
-import Footer from './pages/Footer/Footer';
+
 
 
 const Project = () => {

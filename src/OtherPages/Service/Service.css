@@ -64,9 +64,9 @@
         background-color: #fff;
     }
     
-    .section-services-left >*{
+    /* .section-services-left >*{
         color: #fff;
-    }
+    } */
     .Services-Header{
         color: #F17732;
         background-image: url('../../assests/Page2/background_for_p.png');
