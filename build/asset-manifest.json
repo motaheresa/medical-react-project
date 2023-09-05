@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/medical-react-project/static/css/main.88ac8f90.css",
-    "main.js": "/medical-react-project/static/js/main.62be04af.js",
+    "main.css": "/medical-react-project/static/css/main.96879ae5.css",
+    "main.js": "/medical-react-project/static/js/main.c77b952d.js",
     "static/js/787.3c6afd00.chunk.js": "/medical-react-project/static/js/787.3c6afd00.chunk.js",
     "static/media/Cry.gif": "/medical-react-project/static/media/Cry.4b5472f14025469a16d7.gif",
     "static/media/doc 1.png": "/medical-react-project/static/media/doc 1.7c2bc96d67d3eba1d64a.png",
@@ -38,12 +38,12 @@
     "static/media/new1.jfif": "/medical-react-project/static/media/new1.ede18e16530df363bee6.jfif",
     "static/media/doc8.jfif": "/medical-react-project/static/media/doc8.751364a8ae13d2be0958.jfif",
     "index.html": "/medical-react-project/index.html",
-    "main.88ac8f90.css.map": "/medical-react-project/static/css/main.88ac8f90.css.map",
-    "main.62be04af.js.map": "/medical-react-project/static/js/main.62be04af.js.map",
+    "main.96879ae5.css.map": "/medical-react-project/static/css/main.96879ae5.css.map",
+    "main.c77b952d.js.map": "/medical-react-project/static/js/main.c77b952d.js.map",
     "787.3c6afd00.chunk.js.map": "/medical-react-project/static/js/787.3c6afd00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88ac8f90.css",
-    "static/js/main.62be04af.js"
+    "static/css/main.96879ae5.css",
+    "static/js/main.c77b952d.js"
   ]
 }
