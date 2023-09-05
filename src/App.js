@@ -14,6 +14,9 @@ import Home from './pages/Home/Home';
 import Blogs from './OtherPages/Blogs/Blogs';
 import Contact from './OtherPages/Contact/Contact';
 import NavBars from './components/nav/NavBars';
+import ForgetPassword from './components/ForgetPassword/ForgetPassword';
+import ConfirmPassword from './OtherPages/ConfirmPassword/ConfirmPassword';
+// import ForgetPassword from './OtherPages/ForgetPassword/ForgetPassword';
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +32,8 @@ function App() {
         <Route path='/servicedetail' element={<ServiceDetail />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/forgetPassword' element={<ForgetPassword/>}/>
+        <Route path='/confirmPassword' element={<ConfirmPassword/>}/>
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />

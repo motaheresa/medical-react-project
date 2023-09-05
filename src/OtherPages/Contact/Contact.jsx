@@ -27,22 +27,21 @@ const Contact = () => {
     return (
         <div className=''>
             <HeaderForPages name="Contact Us" />
-            <div className="grid lg:grid-cols-2 gap-5 grid-cols-1 items-center my-10">
-                <Card color="transparent" className='p-10 lg:w-fit md:w-3/4 sm:w-5/6 w-11/12 flex justify-center items-center flex-col mx-auto shadow-2xl'>
-                    <Typography color="gray" className="text-2xl text-gray-400 mt-1 font-normal">
+            <div className="grid lg:grid-cols-2 z-20 gap-5 grid-cols-1 items-center my-10">
+                <div color="transparent" className='p-10 lg:w-fit md:w-3/4 sm:w-5/6 w-11/12 flex justify-center items-center flex-col mx-auto shadow-2xl'>
+                    <div color="gray" className="text-2xl text-gray-400 mt-1 font-normal">
                         Enter your details to Submit.
-                    </Typography>
-                    <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+                    </div>
+                    <form action='/contact' className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
                         <div className="mb-4 flex flex-col gap-6">
-                            <Input size="lg" placeholder="Name" />
-                            <Input size="lg" placeholder="Email" />
-                            <Input size="lg" placeholder="Phone" />
-                            <Input size="lg" placeholder="Department" />
+                            <input type="text" required  className="px-2 py-3 border outline-none" size="lg" placeholder="Name" />
+                            <input type="email" required className="px-2 py-3 border outline-none"     size="lg" placeholder="Email" />
+                            <input type="text"  required className="px-2 py-3 border outline-none"    size="lg" placeholder="Phone" />
                         </div>
-                        <Textarea className='py-5' placeholder="Message" />
-                        <button className='bg-orange-500 my-5 cursor-pointer text-white text-center w-full py-3 text-xl rounded-lg'>Submit</button>
+                        {/* <Textarea className='py-5' placeholder="Message" /> */}
+                        <button type="submit" className='bg-orange-500 z-20 my-5 cursor-pointer text-white text-center w-full py-3 text-xl rounded-lg'>Submit</button>
                     </form>
-                </Card>
+                </div>
                 <div className="native mx-auto lg:w-fit md:w-3/4 sm:w-5/6 w-11/12 rounded-xl flex justify-start py-24 items-left px-10 flex-col text-xl font-semibold">
                     <h2 className='text-white text-2xl pb-10'>Contact Us For Any Informations</h2>
                     <ul className='flex flex-col gap-7 px-5'>
@@ -77,7 +76,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 md:mx-24 mx-8 sm:mx-12 my-14 lg:mx-44">
-                <Card className="mt-6 border border-lime-600">
+                <Card className="mt-6 border border-gray-300">
                     <CardBody>
                         <img src={image1} className="text-blue-500 w-12 h-12 mb-4" alt="" />
                         <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -99,7 +98,7 @@ const Contact = () => {
                         </a>
                     </CardFooter>
                 </Card>
-                <Card className="mt-6 border border-amber-600 shadow-lg">
+                <Card className="mt-6 border border-gray-300 shadow-lg">
                     <CardBody>
                         <img src={image2} alt="" className="text-blue-500 w-12 h-12 mb-4" />
                         <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -121,9 +120,9 @@ const Contact = () => {
                         </a>
                     </CardFooter>
                 </Card>
-                <Card className="mt-6 border border-blue-700">
+                <Card className="mt-6 border border-gray-300">
                     <CardBody>
-                        <img src={image3} alt="" className="text-blue-500 w-12 h-12 mb-4"/>
+                        <img src={image3} alt="" className="text-blue-800 w-12 h-12 mb-4"/>
                         <Typography variant="h5" color="blue-gray" className="mb-2">
                             Address
                         </Typography>

@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import NavBar from './components/nav/NavBars'
 import NavBarSmallScreen from './components/nav_in_small_screen/NavBarSmallScreen';
 import About from './pages/About/About';
-
 import FormPage from './pages/FormPage/FormPage';
 import Home from './pages/Home/Home';
 import News from './pages/News/News';

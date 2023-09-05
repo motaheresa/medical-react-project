@@ -59,7 +59,7 @@ const Footer = () => {
                 <div className="footer-div4 py-8">
                     <h2 className="quick-links-header">Subscribe</h2>
                     <div className="flex flex-col my-8">
-                        <input type="text" className="bg-white shadow-2xl py-3 px-2 border-2 border-color-for-btn-footer rounded-lg outline-none" placeholder="Email Address" name="" id="" />
+                        <input type="text" required className="bg-white shadow-2xl py-3 px-2 border-2 border-color-for-btn-footer rounded-lg outline-none" placeholder="Email Address" name="" id="" />
                         <button className="btn-footer px-1 py-3 text-white rounded-lg mt-4">Subscribe Now</button>
                     </div>
                     <ul className="flex">

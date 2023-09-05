@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 const NavBars = () => {
     const usecon = useContext(creatcon)
     return (
-        <div className='container flex items-center justify-evenly py-6 lg:flex hidden'>
+        <div className=' items-center justify-evenly w-full py-6 lg:flex hidden'>
             <img src={logo} alt="" />
             <ul className='flex gap-9'>
                 <Link to="/medical-react-project" className='navbar-list active font-semibold tracking-wider cursor-pointer'>Home</Link>
