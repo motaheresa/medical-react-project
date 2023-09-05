@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/medical-react-project/static/css/main.fa4ee1b3.css",
-    "main.js": "/medical-react-project/static/js/main.140967ec.js",
+    "main.css": "/medical-react-project/static/css/main.88ac8f90.css",
+    "main.js": "/medical-react-project/static/js/main.62be04af.js",
     "static/js/787.3c6afd00.chunk.js": "/medical-react-project/static/js/787.3c6afd00.chunk.js",
     "static/media/Cry.gif": "/medical-react-project/static/media/Cry.4b5472f14025469a16d7.gif",
     "static/media/doc 1.png": "/medical-react-project/static/media/doc 1.7c2bc96d67d3eba1d64a.png",
@@ -13,6 +13,7 @@
     "static/media/client5.jpg": "/medical-react-project/static/media/client5.28ea761e88293ca4d821.jpg",
     "static/media/client7.jpg": "/medical-react-project/static/media/client7.42f81537f685791c71ac.jpg",
     "static/media/client.jpg": "/medical-react-project/static/media/client.a3848a1189e2114e1b47.jpg",
+    "static/media/animation_lm6juquf_small.gif": "/medical-react-project/static/media/animation_lm6juquf_small.9dc8403a6e0a09880c5d.gif",
     "static/media/client8.jpg": "/medical-react-project/static/media/client8.c1733b79898885a595bd.jpg",
     "static/media/client6.jpg": "/medical-react-project/static/media/client6.44c2a54210474d223a99.jpg",
     "static/media/client10.jpg": "/medical-react-project/static/media/client10.9ca3a0422fec87cd6c98.jpg",
@@ -37,12 +38,12 @@
     "static/media/new1.jfif": "/medical-react-project/static/media/new1.ede18e16530df363bee6.jfif",
     "static/media/doc8.jfif": "/medical-react-project/static/media/doc8.751364a8ae13d2be0958.jfif",
     "index.html": "/medical-react-project/index.html",
-    "main.fa4ee1b3.css.map": "/medical-react-project/static/css/main.fa4ee1b3.css.map",
-    "main.140967ec.js.map": "/medical-react-project/static/js/main.140967ec.js.map",
+    "main.88ac8f90.css.map": "/medical-react-project/static/css/main.88ac8f90.css.map",
+    "main.62be04af.js.map": "/medical-react-project/static/js/main.62be04af.js.map",
     "787.3c6afd00.chunk.js.map": "/medical-react-project/static/js/787.3c6afd00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4ee1b3.css",
-    "static/js/main.140967ec.js"
+    "static/css/main.88ac8f90.css",
+    "static/js/main.62be04af.js"
   ]
 }

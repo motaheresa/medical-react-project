@@ -26,8 +26,8 @@ const FormPage = () => {
                         <option value="2">Dr Naeem Magdy </option>
                         <option value="3">Dr Fady Nagah</option>
                     </select>
-                    <input type="text" required className="form-select form-control py-5 px-3 outline-none" placeholder="Your Name" name="" id="" />
-                    <input type="text" required className="form-select form-control py-5 px-3 outline-none" placeholder="Phone Numbers" name="" id="" />
+                    <input type="text" required className="form-select form-control py-5 px-3 outline-none placeholder:text-black" placeholder="Your Name" name="" id="" />
+                    <input type="text" required className="form-select form-control py-5 px-3 outline-none placeholder:text-black" placeholder="Phone Numbers" name="" id="" />
                     <input type="date" required className="form-select form-control py-5 px-3 outline-none" name="" id="" />
                     <button className="appointment cursor-pointer text-white lg:mt-8 mt-4 mb-5 lg:mb-10 py-4 px-6 rounded-lg w-72 mx-auto text-lg hover:opacity-70 duration-500">Appointment Now</button>
                 </form>
